@@ -11,6 +11,9 @@ export default function DynamicPost(props) {
       </Head>
       <h1>Dynamic Post</h1>
       <Link href="/">Go home</Link>
+      <p>
+        <code>{JSON.stringify(props)}</code>
+      </p>
       <Script
         src="https://connect.facebook.net/en_US/sdk.js"
         strategy="lazyOnload"
